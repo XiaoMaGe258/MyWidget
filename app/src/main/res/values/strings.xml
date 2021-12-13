@@ -1,3 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MyWidget</string>
+    <string name="widget_name">电の花瓣</string>
+    <string name="app_name">电の花瓣</string>
+
+    <string name="start">开始实时检测</string>
+    <string name="stop">停止实时检测</string>
+    <string name="settime">设置刷新间隔</string>
+
+    <string name="st_title">设定你的刷新时间:\n\n先选择时间单位：分钟，秒钟。再输入时间。</string>
+    <string name="st_hint">请输入要设定的时间</string>
+    <string name="st_minute">分钟</string>
+    <string name="st_second">秒钟</string>
+    <string name="st_ok">确定</string>
+    <string name="st_cancelAlarm">取消睡眠省电模式</string>
+    <string name="st_alarmAir">设置睡眠省电模式</string>
+
+
+
+    <string name="battery_status">电池状态</string>
+    <string name="battery_health">电池健康度</string>
+    <string name="battery_level">电池剩余电电量</string>
+    <string name="battery_scale">电池最大值</string>
+    <string name="battery_plugged">连接的电源插座</string>
+    <string name="battery_voltage">电池电压</string>
+    <string name="battery_temperature">电池温度</string>
+    <string name="battery_technology">电池类型</string>
+    <string name="tel_signalstrengths">手机信号强度</string>
+    <string name="wifi_signalstrengths">wifi信号强度</string>
+
+    <string name="alarm_default_time">--:--</string>
+    <string name="alarm_start_time">起始时间：</string>
+    <string name="alarm_stop_time">终止时间：</string>
+    <string name="alarm_info">  睡眠省电模式就是：每天，在设定时间内，开启飞行模式，达到最低的电量消耗，省去了手动设置的烦恼。\n
+        起始时间是开启飞行模式的时间。\n
+        终止时间是关闭飞行模式的时间。</string>
+
+
+    <string name="about">电の花瓣(电量查询插件)  \n
+    version：v2.0\n
+	<u>增加了wifi信号强度的查询。</u>\n
+	<u>增加了手机信号的查询。</u>\n
+	<u>增加了睡眠省电模式。</u>\n
+	美化了部分界面。\n
+	将原来的黑底白字改的稍微有些色彩。\n
+	大家有什么意见，请给发邮件到我的邮箱：max_yong163@163.com\n
+	开发者：马勇\n
+	美工支持：黄玲\n
+	2012年10月18日 </string>
 </resources>

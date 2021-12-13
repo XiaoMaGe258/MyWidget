@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E8EEF7"
+    tools:context=".TestAlarmManagerActivity" >
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="90px"
+        android:background="@drawable/title" />
+
+    <RelativeLayout
+        android:id="@+id/timePickerlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginTop="10dip" >
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timePickerlayout"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="30dip" 
+        >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/alarm_start_time"
+            android:textColor="@color/black"
+            android:textSize="16dip" />
+
+        <Button
+            android:id="@+id/btn_start_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tv1"
+            android:layout_toRightOf="@id/tv1"
+            android:text="@string/alarm_default_time"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv1"
+            android:layout_below="@id/btn_start_time"
+            android:paddingTop="10dip"
+            android:text="@string/alarm_stop_time"
+            android:textColor="@color/black"
+            android:textSize="16dip" />
+
+        <Button
+            android:id="@+id/btn_stop_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tv2"
+            android:layout_toRightOf="@id/tv2"
+            android:text="@string/alarm_default_time"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/st_ok" />
+
+        <Button
+            android:id="@+id/btn_cancelAlarm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/st_cancelAlarm" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout1"
+        android:layout_alignRight="@+id/relativeLayout1"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="10dip"
+        android:text="@string/alarm_info" 
+        android:textColor="@color/black"
+        android:textSize="16dip"/>
+
+</RelativeLayout>

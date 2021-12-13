@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/layout"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+		<Button android:text="@string/stop" android:id="@+id/btn_stop"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button android:text="@string/settime" android:id="@+id/btn_set_time"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+	</LinearLayout>
+	<RelativeLayout
+	    android:id="@+id/img_layout"
+		android:layout_width="fill_parent" android:layout_height="200dip"
+		>
+	</RelativeLayout>
+	<RelativeLayout
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_above="@id/layout" android:layout_below="@id/img_layout">
+			<TextView android:text=" " android:id="@+id/btn_battery_flag"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"/>
+				
+			<TextView android:text="@string/battery_status" android:id="@+id/btn_battery_status1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textSize="18dip"
+				/>
+			<TextView android:text="@string/battery_status" android:id="@+id/btn_battery_status"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_alignLeft="@id/btn_battery_flag" android:textSize="18dip"
+				/>
+
+			<TextView android:text="@string/battery_health" android:id="@+id/btn_battery_health1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/btn_battery_status1" android:layout_marginTop="10dip"
+				android:layout_alignLeft="@id/btn_battery_status1" android:textSize="18dip"
+				/>
+			<TextView android:text="@string/battery_health" android:id="@+id/btn_battery_health"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/btn_battery_status" android:layout_marginTop="10dip"
+				android:layout_alignLeft="@id/btn_battery_status" android:textSize="18dip"
+				/>
+				
+<!-- 			<TextView android:text="@string/battery_level" android:id="@+id/btn_battery_level1" -->
+<!-- 				android:layout_width="wrap_content" android:layout_height="wrap_content" -->
+<!-- 				android:layout_below="@id/btn_battery_health1" android:layout_marginTop="10dip" -->
+<!-- 				android:layout_alignLeft="@id/btn_battery_health1" android:textSize="18dip" -->
+<!-- 				/> -->
+<!-- 			<TextView android:text="@string/battery_level" android:id="@+id/btn_battery_level" -->
+<!-- 				android:layout_width="wrap_content" android:layout_height="wrap_content" -->
+<!-- 				android:layout_below="@id/btn_battery_health" android:layout_marginTop="10dip" -->
+<!-- 				android:layout_alignLeft="@id/btn_battery_health" android:textSize="18dip" -->
+<!-- 				/> -->
+
+<!-- 			<TextView android:text="@string/battery_scale" android:id="@+id/btn_battery_scale1" -->
+<!-- 				android:layout_width="wrap_content" android:layout_height="wrap_content" -->
+<!-- 				android:layout_below="@id/btn_battery_level1" android:layout_marginTop="10dip" -->
+<!-- 				android:layout_alignLeft="@id/btn_battery_level1" android:textSize="18dip" -->
+<!-- 				/> -->
+<!-- 			<TextView android:text="@string/battery_scale" android:id="@+id/btn_battery_scale" -->
+<!-- 				android:layout_width="wrap_content" android:layout_height="wrap_content" -->
+<!-- 				android:layout_below="@id/btn_battery_level" android:layout_marginTop="10dip" -->
+<!-- 				android:layout_alignLeft="@id/btn_battery_level" android:textSize="18dip" -->
+<!-- 				/> -->
+
+			<TextView android:text="@string/battery_plugged" android:id="@+id/btn_battery_plugged1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/btn_battery_health1" android:layout_marginTop="10dip"
+				android:layout_alignLeft="@id/btn_battery_health1" android:textSize="18dip"
+				/>
+			<TextView android:text="@string/battery_plugged" android:id="@+id/btn_battery_plugged"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/btn_battery_health" android:layout_marginTop="10dip"
+				android:layout_alignLeft="@id/btn_battery_health" android:textSize="18dip"
+				/>
+
+<!-- 			<TextView android:text="@string/battery_voltage" android:id="@+id/btn_battery_voltage1" -->
+<!-- 				android:layout_width="wrap_content" android:layout_height="wrap_content" -->
+<!-- 				android:layout_below="@id/btn_battery_plugged1" android:layout_marginTop="10dip" -->
+<!-- 				android:layout_alignLeft="@id/btn_battery_plugged1" android:textSize="18dip" -->
+<!-- 				/> -->
+<!-- 			<TextView android:text="@string/battery_voltage" android:id="@+id/btn_battery_voltage" -->
+<!-- 				android:layout_width="wrap_content" android:layout_height="wrap_content" -->
+<!-- 				android:layout_below="@id/btn_battery_plugged" android:layout_marginTop="10dip" -->
+<!-- 				android:layout_alignLeft="@id/btn_battery_plugged" android:textSize="18dip" -->
+<!-- 				/> -->
+
+			<TextView android:text="@string/battery_temperature" android:id="@+id/btn_battery_temperature1" 
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/btn_battery_plugged1" android:layout_marginTop="10dip"
+				android:layout_alignLeft="@id/btn_battery_plugged1" android:textSize="18dip"
+				/>
+			<TextView android:text="@string/battery_temperature" android:id="@+id/btn_battery_temperature" 
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:layout_below="@id/btn_battery_plugged" android:layout_marginTop="10dip"
+				android:layout_alignLeft="@id/btn_battery_plugged" android:textSize="18dip"
+				/>
+
+			<TextView android:text="@string/battery_technology" android:id="@+id/btn_battery_technology1" 
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/btn_battery_temperature1" android:layout_marginTop="10dip"
+				android:layout_alignLeft="@id/btn_battery_temperature1" android:textSize="18dip"
+				/>
+			<TextView android:text="@string/battery_technology" android:id="@+id/btn_battery_technology" 
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:layout_below="@id/btn_battery_temperature" android:layout_marginTop="10dip"
+				android:layout_alignLeft="@id/btn_battery_temperature" android:textSize="18dip"
+				/>
+			
+			<TextView android:text="@string/tel_signalstrengths" android:id="@+id/btn_tel_signalstrengths1" 
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/btn_battery_technology1" android:layout_marginTop="10dip"
+				android:layout_alignLeft="@id/btn_battery_technology1" android:textSize="18dip"
+				/>
+			<TextView android:text="@string/tel_signalstrengths" android:id="@+id/btn_tel_signalstrengths" 
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:layout_below="@id/btn_battery_technology" android:layout_marginTop="10dip"
+				android:layout_alignLeft="@id/btn_battery_technology" android:textSize="18dip"
+				/>
+	</RelativeLayout>
+</RelativeLayout>

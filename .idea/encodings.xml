@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/pb/app/mywidget/AlarmReceiver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/pb/app/mywidget/AlarmToAirPortModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/pb/app/mywidget/BackService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/pb/app/mywidget/Batterywidget.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/pb/app/mywidget/MySharedPreferences.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/pb/app/mywidget/SetTimeActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/pb/app/mywidget/SettingActivity.java" charset="UTF-8" />
+  </component>
+</project>

@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/workspace/MyWidget/app/src/main/res/layout/activity_main.xml" value="0.2046875" />
+        <entry key="..\:/workspace/MyWidget/app/src/main/res/layout/alarmtoairport.xml" value="0.36614583333333334" />
+        <entry key="..\:/workspace/MyWidget/app/src/main/res/layout/main.xml" value="0.36614583333333334" />
+        <entry key="..\:/workspace/MyWidget/app/src/main/res/layout/setting.xml" value="0.36614583333333334" />
         <entry key="..\:/workspace/MyWidget3/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
