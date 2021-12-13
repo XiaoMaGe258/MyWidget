@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="widget_name">电の花瓣</string>
-    <string name="app_name">电の花瓣</string>
+    <string name="widget_name">电の花</string>
+    <string name="app_name">电の花</string>
 
     <string name="start">开始实时检测</string>
     <string name="stop">停止实时检测</string>
