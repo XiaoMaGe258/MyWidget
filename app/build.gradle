@@ -8,7 +8,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.pb.app.mywidget3"
+        applicationId "com.pb.app.mywidget"
         minSdk 17
         targetSdk 31
         versionCode 1

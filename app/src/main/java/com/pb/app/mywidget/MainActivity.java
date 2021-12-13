@@ -1,4 +1,4 @@
-package com.pb.app.mywidget3;
+package com.pb.app.mywidget;
 
 import android.os.Bundle;
 
