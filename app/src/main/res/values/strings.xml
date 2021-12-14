@@ -16,7 +16,6 @@
     <string name="st_alarmAir">设置睡眠省电模式</string>
 
 
-
     <string name="battery_status">电池状态</string>
     <string name="battery_health">电池健康度</string>
     <string name="battery_level">电池剩余电电量</string>
@@ -47,4 +46,7 @@
 	开发者：马勇\n
 	美工支持：黄玲\n
 	2012年10月18日 </string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
 </resources>

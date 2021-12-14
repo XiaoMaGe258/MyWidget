@@ -14,6 +14,9 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.widget.RemoteViews;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class BackService extends Service{
 
     private static Context context;
